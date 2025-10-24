@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Event Registration</h2>
+    <p>Register with us to get more details.</p>
+
+    <form>
+      <label>Name</label>
+      <div class="name-group">
+        <input type="text" placeholder="First" required>
+        <input type="text" placeholder="Last" required>
+      </div>
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+      <label>Phone</label>
+      <input type="tel" placeholder="Enter your phone number" required>
+      <label>Preferred Slot</label>
+      <select required>
+        <option value="">Choose slot</option>
+        <option>Morning</option>
+        <option>Afternoon</option>
+        <option>Evening</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
